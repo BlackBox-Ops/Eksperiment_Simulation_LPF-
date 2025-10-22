@@ -41,7 +41,7 @@ $$f_c \approx \mathbf{96.9 \text{ Hz}}$$
 
 Visualisasi Bode Plot menunjukkan kurva *gain* (biru) dan fasa (merah) sesuai dengan karakteristik filter lolos bawah orde 2.
 
-![Bode Plot LPF 100 Hz (Gain dan Fasa)](Simulation/hasil_pengukuran.png)
+![Bode Plot LPF 100 Hz (Gain dan Fasa)](Simulation/Hasil_pengukuran.png)
 
 | Karakteristik | Target Teori | Pengamatan Simulasi | Status |
 | :--- | :--- | :--- | :--- |
