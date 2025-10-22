@@ -1,0 +1,16 @@
+* C:\users\user\Desktop\Documents\100 days wake up\Electronics\ECG 12 Lead \LPF\Simulation\Low Pass Filter.asc
+XU1 N001 N004 VEE VCC N004 LT1001
+C1 0 VCC 100nf
+C2 0 VEE 100nf
+R1 N003 N002 51k
+R2 N001 N003 51k
+C3 N003 N004 47nf
+C4 N001 0 22nf
+V1 N002 0 SINE(0 1 100) AC 1
+V2 VCC 0 6v
+V3 VEE 0 -6v
+* Low Pass Filter 100 Hz -40dB/dec\ndengan Topologi Sallen Key
+.ac dec 100 0.1 100k
+.lib LTC.lib
+.backanno
+.end
