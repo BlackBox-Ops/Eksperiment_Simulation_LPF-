@@ -16,12 +16,12 @@ Rangkaian LPF menggunakan topologi **Sallen-Key Orde 2** untuk mencapai *slope* 
 
 **Skematik Rangkaian:**
 
-![Skematik LPF 100 Hz](simulation/Rangkaian_LPF_100Hz.png)
+![Skematik LPF 100 Hz](Simulation/Rangkaian_LPF_100Hz.png)
 
 | Komponen | Nilai | Tujuan |
 | :--- | :--- | :--- |
-| **R1** | 51 k$\Omega$ | Penentu Frekuensi |
-| **R2** | 51 k$\Omega$ | Penentu Frekuensi |
+| **R1** | 51 k | Penentu Frekuensi |
+| **R2** | 51 k | Penentu Frekuensi |
 | **C3** | 47 nF | Penentu Frekuensi |
 | **C4** | 22 nF | Penentu Frekuensi |
 
@@ -41,7 +41,7 @@ $$f_c \approx \mathbf{96.9 \text{ Hz}}$$
 
 Visualisasi Bode Plot menunjukkan kurva *gain* (biru) dan fasa (merah) sesuai dengan karakteristik filter lolos bawah orde 2.
 
-![Bode Plot LPF 100 Hz (Gain dan Fasa)](simulation/hasil_pengukuran.png)
+![Bode Plot LPF 100 Hz (Gain dan Fasa)](Simulation/hasil_pengukuran.png)
 
 | Karakteristik | Target Teori | Pengamatan Simulasi | Status |
 | :--- | :--- | :--- | :--- |
